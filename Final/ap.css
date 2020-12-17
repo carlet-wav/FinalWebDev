@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin: 15px auto;
+    color: whitesmoke;
+
+}
+body{
+    background-image: url(images/TheSpire.PNG);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 50%;
+}
+
+.audio{
+  
+    align-items: center;
+}
+.desc{
+    color: whitesmoke;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 20px;
+    background-color: burlywood;
+    fill-opacity: 0.5;
+    
+}
+.plsAlign{
+    height: 100px;
+    width: 350px;
+    border: 2px;
+    margin: 15px auto;
+    padding: 0 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+}

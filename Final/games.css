@@ -5,19 +5,36 @@ h1{
 .main{
     margin: 15px auto;
     align-items: center;
-    color: green;
-    border: 4px solid;
+    color: whitesmoke;
+    border: 4px seagreen solid;
     width: 300px;
     height: 300px;
 }
 .game{
     height: 55px;
     width: 55px;
-    background: plum;
     border: 2px;
     margin: 15px auto;
     padding: 0 20px;
     font-size: 15px;
     text-align: center;
     border-radius: 10px;
+    animation-name: changing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changing{
+    0% {background-color: darkmagenta;}
+    35% {background-color: darkorchid;}
+    65% {background-color: violet;}
+    100% {background-color: plum;} 
+}
+a:link{
+    color: limegreen;
+}
+a:visited{
+    color: lightslategrey;
+}
+a:hover{
+    color: seagreen;
 }

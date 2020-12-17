@@ -13,10 +13,11 @@ h2{
 .mainCenter{
     margin: 15px auto;
     align-items: center;
-    color: peachpuff;
-    border: 4px dotted;
-    width: 500px;
+    color: lightseagreen;
+    border: 5px dotted;
+    width: 400px;
     height: 400px;
+    
     
 }
 .button{
@@ -29,5 +30,23 @@ h2{
     font-size: 15px;
     text-align: center;
     border-radius: 10px;
+    animation-name: colorChange;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 
+}
+@keyframes colorChange{
+    0% {background-color: orangered;}
+    50% {background-color: darksalmon;}
+    75% {background-color: darkseagreen;}
+    100% {background-color: limegreen;}
+}
+a:link{
+    color: linen;
+}
+a:visited{
+    color:mintcream;
+}
+a:hover{
+    color:darkgreen;
 }
